@@ -1,0 +1,43 @@
+package org.hsd.inflab.Uebung9;
+
+public class Person {
+
+	private String name;
+	private String jahr;
+	private boolean stand;
+
+	//Konstruktor Person
+	Person(String name, String jahr, boolean stand) {
+		
+		this.setName(name);
+		this.setJahr(jahr);
+		this.setStand(stand);		
+		
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getJahr() {
+		return jahr;
+	}
+
+	public void setJahr(String jahr) {
+		this.jahr = jahr;
+	}
+
+	public boolean isStand() {
+		return stand;
+	}
+
+	public void setStand(boolean stand) {
+		this.stand = stand;
+	}
+
+
+}
